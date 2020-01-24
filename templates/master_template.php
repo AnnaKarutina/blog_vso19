@@ -53,7 +53,7 @@
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li <?= $controller == 'welcome' ? 'class="active"' : '' ?>><a href="#">Home</a></li>
+                <li <?= $controller == 'posts' ? 'class="active"' : '' ?>><a href="#">Home</a></li>
                 <li <?= $controller == 'halo' ? 'class="active"' : '' ?>><a href="halo">Halo admin</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
